@@ -1,0 +1,14 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.app__content {
+  padding-top: 120px;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}

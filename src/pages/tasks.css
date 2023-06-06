@@ -1,0 +1,27 @@
+.plus {
+    background: #CD6D45;
+    height: 30px;
+    width: 5px;
+    position: relative;
+    left: 20px;
+}
+.plus:after {
+    content: "";
+    height: 5px;
+    width: 30px;
+    background: #CD6D45;
+    position: absolute;
+    left: -13px;
+    top: 12px;
+}
+
+.input__query {
+    background-color: white;
+    margin-left: auto;
+    margin-bottom: 20px;
+    padding: 5px;
+    color: #000;
+    font-weight: 700;
+    width: 300px;
+    border-radius: 10px;
+}

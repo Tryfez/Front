@@ -1,0 +1,29 @@
+.submit__form {
+    position: absolute;
+    min-width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #0a53be;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.media__item {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .submit__form {
+        min-width: 300px;
+        top: 60%
+    }
+
+    .media__item {
+        display: block;
+    }
+
+    .nav__items {
+        display: none;
+    }
+}

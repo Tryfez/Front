@@ -1,0 +1,27 @@
+.navbar {
+    width: calc(100% - 40px);
+    max-width: 1280px;
+    position: fixed;
+    top: 20px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: #0a53be;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    z-index: 99;
+}
+
+.nav__items {
+    display: flex;
+    align-items: center;
+    gap: 0 15px
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #c0bcbc;
+}
